@@ -1,0 +1,12 @@
+final-EC2-CrossRegion-Project/
+├── README.md
+├── summary-report.txt
+└── screenshots/
+    ├── 1-Create-Primary-Vault.png
+    ├── 2-Create-Destination-Vault.png
+    ├── 3-Create-Backup-Plan.png
+    ├── 4-Add-Resource-Assignment.png
+    ├── 5-Enable-Cross-Region-Copy.png
+    ├── 6-Run-OnDemand-Backup.png
+    ├── 7-Verify-Backup-Job.png
+    └── 8-Check-Recovery-Point-ap-northeast-3.png

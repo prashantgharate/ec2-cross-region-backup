@@ -1,0 +1,22 @@
+
+Summary Report: Cross-Region Backup Replication for EC2 using AWS Backup
+
+1. Objective:
+To automate backups of an EC2 instance in ap-south-1 and replicate them to ap-northeast-3.
+
+2. Steps Followed:
+- Launched EC2 in ap-south-1
+- Created backup vaults in both regions
+- Created a backup plan and added resource assignments
+- Enabled cross-region copy with destination vault in ap-northeast-3
+- Triggered on-demand backup for testing
+- Verified recovery points in destination region
+
+3. Benefits:
+- High availability and durability
+- Disaster recovery readiness
+- Easy centralized backup management
+
+4. Issues & Resolutions:
+- IAM Role missing – fixed by assigning AWSBackupDefaultServiceRole
+- Initial copy job delay – resolved by retrying backup trigger
